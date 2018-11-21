@@ -15,7 +15,7 @@
     <script>
     window.onload = function() {
     <!-- Deep link URL for existing users with app already installed on their device -->
-        window.location = 'http://deeplink.me/otter.ai';
+        window.location = 'otter.ai://';
     <!-- Download URL (TUNE link) for new users to download the app -->
         setTimeout("window.location = 'https://itunes.apple.com/us/app/otter-voice-notes/id1276437113?mt=8';", 1000);
     }
@@ -31,7 +31,7 @@
     </form>
 
     <!-- button to Open App to specific screen for existing app users -->
-    <form action="http://deeplink.me/otter.ai" target="_blank">
+    <form action="otter.ai://" target="_blank">
         <input type="submit" value="Open App" />
     </form>
 
