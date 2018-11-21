@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
     <title>Open Otter</title>
-    <style>@media screen and (max-device-width:480px){body{-webkit-text-size-adjust:none; background-color: #ffcdf8; color: #25e4ff; font-family: 'Comic Sans'}}</style>
+    <style>@media screen and (max-device-width:1680px){body{-webkit-text-size-adjust:none; background-color: #ffcdf8; color: #25e4ff; font-family: 'Comic Sans'}}</style>
 
     <!-- implement javascript on web page that first first tries to open the deep link
         1. if user has app installed, then they would be redirected to open the app to specified screen
@@ -14,7 +14,7 @@
      -->
     <!-- <script>
     window.onload = function() {
-        window.location = 'otter-ai://';
+        window.location = 'otter-voice-notes://';
 
         setTimeout("window.location = 'https://itunes.apple.com/us/app/otter-voice-notes/id1276437113?mt=8';", 1000);
     }
@@ -35,7 +35,7 @@
     <br><br>
 
     <!-- button to Open App to specific screen for existing app users -->
-    <form action="otter-ai://" target="_blank">
+    <form action="otter-voice-notes://" target="_blank">
         <input type="submit" value="Open App" />
     </form>
 
